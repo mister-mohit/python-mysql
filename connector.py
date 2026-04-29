@@ -1,9 +1,9 @@
 import mysql.connector 
 mycon = mysql.connector.connect(
-         host='localhost',   # change here
+         host='localhost',
         user='root',
-        password='admin@123',
-        database='pythondb',
+        password='1008',
+        database='sqlpractice',
         connection_timeout=5,
         use_pure=True 
     )
